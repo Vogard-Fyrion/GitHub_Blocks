@@ -1,0 +1,25 @@
+h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.row1, .row2, .row3{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+img{
+    height: 200px;
+}
+.row1{
+    background-color: sandybrown;
+    justify-content: space-around;
+}
+.row2{
+    background-color: midnightblue;
+    justify-content: space-evenly;
+}
+.row3{
+    background-color: maroon;
+    justify-content: space-between;
+}
